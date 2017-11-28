@@ -1,0 +1,685 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+/**the end part general**/
+.container {
+	width: 1140px;
+	margin: auto;
+	overflow: hidden;
+}
+header {
+	width:100%;
+	height: 70px;
+	line-height: 70px;
+
+}
+.rosca_logout-header-includer {
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	z-index: 999;
+}
+#rosca-header-inner {
+	height: 35px;
+	line-height: 35px;
+	margin: 15px 0 15px 0;
+}
+#logo {
+	float: left;
+}
+nav {
+	float: right;
+}
+nav ul {
+	margin: 0;
+	list-style-type: none;
+}
+nav ul li {
+	display: inline-block;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #333;
+}
+nav ul li a:hover {
+	color: #0000cc;
+}
+.rosca_img-center {
+	margin-bottom: -5px;
+}
+/**the end part header**/
+#rosca-banner {
+    height: 326px;
+    background-image: url(../Demo/photo/bg-banner.jpg);
+}
+	#rosca_content-banner {
+		margin: 35px 0px;
+	}
+		#rosca_section-1 {
+			margin: 15px 0;
+		}
+			.rosca_logo-developer {
+				width: 30%;
+				float: left;
+				height: 100PX;
+				margin: 0px;
+			}
+				.rosca_logo-developer-avatar img {
+					width: 100px;
+					height: 100px;
+					border-radius: 50%;
+					float: left;
+
+				}
+				.rosca_logo-developer-heading {
+					float: left;
+					text-align: left;
+					padding: 10px 10px 10px 20px;
+					color: #ffffff;
+					font-family: Roboto,sans-serif;
+					
+				}
+					.rosca_logo-developer-heading h2 {
+						font-size: 28px;
+					}
+					.rosca_logo-developer-heading p {
+						margin-top: -15px;
+						
+						font-size: 16px;
+					}
+			.rosca_content-includer {
+				width: 69%;
+				float: right;
+				height: 89px;
+				margin: 10px 0px;
+				margin-right:-15px; 
+			}
+				.rosca_border-total {
+					height: 88px;
+					width: 240px;
+					background: #ffffff;
+					border-radius: 7px;
+					display: inline-block;
+					float: left;
+					margin-left: 17px;
+				}
+				.rosca_border-total-1 {
+					border-bottom: 3px solid #ff00ff;
+					
+				}
+					.rosca_border-total-1 p {
+						color: #ff00ff;
+					}
+				.rosa_border-total-2 {
+					border-bottom: 3px solid #32CD32;
+
+				}
+					.color-green {
+						color: #32CD32;
+					}
+				.rosa_border-total-3 {
+					border-bottom: 3px solid #0000FF;
+				}
+					.color-blue {
+						color: #0000FF;
+					}
+				.rosca_border-total-heading {
+					float: left;
+					text-align: left;
+					font-family: Roboto,sans-serif;
+					padding-left: 15px;
+
+				}
+				.rosca_border-total-heading p {
+					margin-top: 15px;
+				}
+				.rosca_border-total-icon {
+					display: inline-block;
+					width: 60px;
+					height: 60px;
+					float: right;
+					border-radius: 50%;
+					border: 3px solid #dbd4db;
+					padding: 5px;
+					margin: 6px 20px;
+			
+				}
+					.rosca_border-total-icon img {
+						float: left;
+						text-align: left;
+						padding: 16px;
+						
+					}
+					.rosca_border-total-icon span {
+						width: 65px;
+						height: 65px;
+						line-height: 65px;
+						margin-left: 8px;
+						font-size: 27px;
+					}
+				h2 {
+					font-weight: 300;
+				}	
+				th {
+					font-weight: 300;
+				}
+		#rosca_section-2 {
+			margin: 20px 0px;
+		}
+			.rosca_banner-includer {
+				width: 1165px;
+				height: 92px;
+				margin: 0px 10px;
+				
+			}
+				.rosca_banner-includer-tagets{
+					height: 92px;
+					float: left;
+					width: 267px;
+					border-radius: 7px;
+					background: #f3f3f3;
+					color: #ffffff;
+					margin: 0px 34px 0px -10px;
+					
+					text-transform: uppercase;
+				}	
+				.rosca_banner-includer-tagets-app-1 {
+				    background: #32CD32;
+				    background-image: url(../Demo/photo/total-get.png);
+				    background-repeat: no-repeat;
+				    background-position: 90% 50%; 
+				}
+					.rosca-sumary-box {
+						width: 140px;
+						height: 44px;
+						line-height: 44px;
+						text-align: center;
+						margin-top: 0px;
+						border-top-left-radius: 7px;
+						background-color: #797953;
+						background: rgba(0, 126, 0, 0.135);
+						display: block;
+						position: relative;
+						 
+					}
+						.rosca-sumary-box::after {
+							top: 0;
+							display: block;
+							position: absolute;
+							left: 100%;
+							content: '';
+							border-bottom: 44px solid transparent;
+							border-left: 25px solid #797953;
+							opacity: 0.21;
+						}
+					.rosca-sumary-title {
+						width: 140px;
+						height: 44px;
+						line-height: 44px;
+						margin: -14px 0px 0px 20px;
+						font-family: sans-serif;
+					}
+				.rosca_banner-includer-tagets-app-2 {
+					background: #0080ff;
+					background-image: url(../Demo/photo/total-give.png);
+				    background-repeat: no-repeat;
+				    background-position: 90% 50%;
+				}
+				.rosca_banner-includer-tagets-app-3 {
+					background: #FF69B4;
+					background-image: url(../Demo/photo/net-gain.png);
+				    background-repeat: no-repeat;
+				    background-position: 90% 50%;
+				}
+				.rosca_banner-includer-tagets-app-4 {
+					background: #FFD700;
+					background-image: url(../Demo/photo/total-roscas.png);
+				    background-repeat: no-repeat;
+				    background-position: 90% 50%;
+				}
+.rosca_banner-wrap {
+	height: 108px;
+	background: #333
+	margin: 60px 0px;
+}
+/**the end banner**/
+#rosca_main {
+	margin-top: 50px;
+	padding: 0px;
+}
+	.rosca_main_content-general {
+		height: 814px;
+		width: 100%;
+	}
+		.rosca_main-content {
+		    width: 753px;
+		    height: 814px;
+		    float: left;
+		}
+			#rosca_main_content-leader {
+				height: 460px;
+				width: 100%;
+				border-radius: 7px;
+				border: 1px solid #D3D3D3;
+				font-family: Roboto,sans-serif;
+				overflow: hidden;
+			}
+			#rosca_main_content-featured {
+				margin-top: 16px;
+				height: 311px;
+				width: 752px;
+				border-radius: 7px;
+				border: 1px solid #D3D3D3;
+				overflow: hidden;
+			}
+				.rosca_content-heading {
+					width: 752px;
+					height: 51px;
+					line-height: 51px;
+					display: inline-block;
+					border-bottom: 1px solid #6b8490;
+				}
+					.heading-clearfix {
+						float: left;
+						width: 190	px;
+						height: 51px;
+						line-height: 51px;
+						background-color: #6b8490;
+						display: block;
+						margin: 0 auto;
+						position: relative;
+						background-image: url(../Demo/photo/rosca-white-icon.png);
+						background-repeat: no-repeat;
+						background-position: 5% 50%;
+						border-top-left-radius: 7px;	
+					}
+						.heading-clearfix::after {
+							top: 0;
+							display: block;
+							position: absolute;
+							content: '';
+							left: 100%;
+							border-top: 51px solid transparent;
+							border-left: 30px solid #6b8490;
+						}
+						.heading-clearfix h4 {
+							color: #ffffff;
+							text-align: left;
+							font-family: sans-serif;
+							font-size: 16px;
+							text-transform: uppercase; 
+							margin-top: 3px;
+							margin-left: 40px; 
+							letter-spacing: -1px;
+							font-weight: 300;
+						}
+				
+					.heading-taget {
+						float: right;
+						padding-right: 15px;
+						font-family: sans-serif;
+					}
+					.rosca-table-leader {
+						width: 100%;
+						height: 410px;
+						margin-top: -5px;
+					}
+					.header-table {
+						text-align: left;
+						font-family: sans-serif;
+						text-transform: uppercase;
+						color: #999999;
+						width: 751px;
+						height: 38px;
+						line-height:38px;
+						font-weight: 600;
+					}
+					.header-table th {
+						padding-left: 15px;
+					}
+					.header-table td {
+						padding-left: 15px;
+					}
+					tbody tr {
+						background: #D3D3D3;
+					}
+					tbody tr:nth-child(even) {
+						background: #ffffff;
+					}
+					tbody tr td {
+						padding-left: 15px;
+					}
+					.avt-people {
+						width: 120px;
+						height: 74px;
+						position: inherit;
+					}
+					.avt-people img {
+						float: left;
+						width: 54px;
+						height: 54px;
+						border-radius: 50%; 
+						margin-top: 10px;
+					}
+					.avt-people span {
+						margin-left: 10px;
+						height: 74px;
+						line-height: 74px;
+						font-size: 16px;
+						font-family: sans-serif;
+					}
+					.part-name {
+						font-weight: bold;
+						text-transform: uppercase;
+					}
+					.part-number {
+						font-weight: bold;
+					}
+			.rosca_main_content-featured {
+				width: 722px
+				height: 311px;
+				border: 1px solid #DDEEFF;
+				float: left;
+				font-family: sans-serif;
+				font-size: 16px;
+		}
+			.text-big {
+				display: inline-block;
+				padding: 0px 20px;
+				width: 207px;
+				height: 74px;
+				line-height: 74px;
+			}
+			.text-big a {
+				margin-top: 10px;
+				width: 207px;
+				height: 74px;
+				display: inline-block;
+				font-family: sans-serif;
+				text-decoration: none;
+				color: black;
+			}
+			.text-big h1 {
+				font-size: 48px;
+				float: left;
+				color: green;
+				font-family: inherit;
+				margin-top: -8px;
+				display: inline-block;
+				font-weight: 300;
+			}
+			.number-big {
+				font-family: sans-serif;
+				font-size: 16px;
+			}
+				.number-big span {
+					font-weight: bold;
+					font-size: 24px;
+					font-weight: 300;
+				}
+			.rosca-table-featured {
+				width: 100%;
+				height: 222px;
+				margin-top: -5px;
+			}
+				.rosca-table-featured tbody {
+					width: 100%;
+					height: 222px;
+				}
+		.rosca_main_sidebar {
+		    width: 346px;
+		    height: 814px;
+		    float: right;
+		    display: inline-block;
+		}
+			.rosca_main_sidebar-general {
+				width: 344px;
+				height: 385px;
+				border-radius: 7px;
+				border: 1px solid #D3D3D3;
+				overflow: hidden;
+
+			}
+			#rosca_main-sidebar-table-1 {
+			
+			}
+			#rosca_main-sidebar-table-2 {
+				margin-top: 16px;
+
+			}
+			.heading-calendar {
+				width: 344px;
+				height: 51px;
+				line-height: 51px;
+				border-bottom: 1px solid #32CD32;
+				font-family: sans-serif;
+				font-size: 16px;
+				display: inline-block;
+				font-weight: 300;
+				color: #32CD32;
+				background-image: url(../Demo/photo/calendar-green.png);
+				background-repeat: no-repeat;
+				background-position: 3% 50%;
+			}
+				.heading-calendar-img {
+					float: left;
+					height: 51px;
+					margin-top: -20px;
+					padding-left: 40px;
+				}
+				.heading-calendar-number {
+					width: 135px;
+					height: 51px;
+					line-height: 51px;
+					border-top-right-radius: 7px;
+					position: relative;
+					margin: 0 auto;
+					display: block;
+					float: right;
+					background-color: #32CD32;
+					
+				}
+					.heading-calendar-number::after {
+						top: 0;
+						display: block;
+						position: absolute;
+						right: 100%;
+						content: '';
+						border-left: 20px solid transparent;
+						border-bottom: 51px solid #32CD32;
+					}
+					.heading-calendar-number h2 {
+						line-height: 51px;
+						text-align: center;
+						margin-top: 0px;
+						color: #ffffff;
+						font-weight: 300;
+
+					}
+				
+				.header-calendar {
+					width: 344px;
+					height: 38px;
+					line-height: 38px;
+					text-align: left;
+				}
+				.table-calendar {
+					width: 344px;
+					height: 334px;
+					margin-top: -5px;
+					
+				}
+				.header-table-calendar {
+					width: 100%;
+					height: 38px;
+					line-height: 38px;
+				}
+					.table-calendar tbody {
+						width: 100%;
+						height: 296px;
+					}
+			.rosca-comming-heading {
+				width: 344px;
+				height: 51px;
+				line-height: 51px;
+				border-bottom: 1px solid #0099ff;
+				font-family: sans-serif;
+				font-size: 16px;
+				display: inline-block;
+				font-weight: 300;
+				color: #0099ff;
+				background-image: url(../Demo/photo/calendar-blue.png);
+				background-repeat: no-repeat;
+				background-position: 3% 50%;
+			}	
+				.heading-calendar-gives {
+					float: left;
+					height: 51px;
+					margin-top: -20px;
+					padding-left: 40px;
+				}
+				.heading-calendar-money {
+					width: 135px;
+					height: 51px;
+					line-height: 51px;
+					border-top-right-radius: 7px;
+					position: relative;
+					margin: 0 auto;
+					display: block;
+					float: right;
+					background-color: #0099ff;	
+				}
+					.heading-calendar-money::after {
+						top: 0;
+						display: block;
+						position: absolute;
+						right: 100%;
+						content: '';
+						border-left: 20px solid transparent;
+						border-bottom: 51px solid #0099ff;
+					}
+					.heading-calendar-money h2 {
+						line-height: 51px;
+						text-align: center;
+						margin-top: 0px;
+						color: #ffffff;
+						font-weight: 300;
+					}
+					.rosca-socials {
+						width: 145px;
+						height: 42px;
+						line-height: 42px;
+						text-align: center;
+						background-color: #5900b3;
+						border-radius: 21px;
+						position: absolute;
+						margin-left: 85px;
+						margin-top: -23px;
+						
+					}
+					.rosca-socials:hover {
+						background-color: #ffcc00;
+					}
+					.rosca-socials a {
+						color: white;
+						text-decoration: none;
+					}
+					.table-calendar tbody tr {
+						height: 74px;
+					}
+	/**the end part content**/
+	.rosca_activity-darkbottom {
+		width: 100%;
+		height: 70px;
+		}
+		.rosca_activity-bottom {
+		width: 100%;
+		height: 70px;
+		margin: auto;
+		overflow: initial;
+		}
+		.row {
+		width: 100%;
+		display: inline-flex;
+		text-align: center;
+		}
+		.col-md-4 {
+		width: 33%;
+		height: 70px;
+		text-align: center;
+		}
+		.box-link-share:hover,.box-link-chat:hover {
+			background-color: yellow;
+		}
+		.box-link-share {
+			width: 120px;
+			height: 40px;
+			line-height: 40px;
+			position: fixed;
+			bottom: 30px;
+			left: 15px;
+			margin: 65px 0 0 25px;
+			border-radius: 20px;
+			z-index: 999;
+			background-color: #5900b3;
+		}
+		.box-link-center {
+			width: 60px;
+			height: 60px;
+			line-height: 60px;
+			margin: auto;
+
+		}
+		.box-link-center-private {
+			width: 60px;
+			height: 60px;
+			line-height: 60px;
+			text-align: center;
+			margin: auto;
+			background-color: darkgreen;
+			border-radius: 50%;
+			position: fixed;
+			bottom: 70px;
+
+		}
+		.box-link-chat {
+			width: 120px;
+			height: 40px;
+			line-height: 40px;
+			position: fixed;
+			right: 15px;
+			bottom: 30px;
+			z-index: 999;
+			margin: 65px 25px 0 0;
+			background-color: #5900b3;
+			border-radius: 20px;
+		}
+		.row div div a {
+			text-decoration: none;
+			color: white;
+			font-weight: 700;
+			font-size: 16px;
+			font-family: sans-serif;
+		}
+/**the end prat content and sidebar**/
+footer {
+	 height: 50px;
+     clear: both;
+     background-color: #333;
+     text-align: center;
+     color: #b9bfc3;
+}
+p {
+	font-size: 14px;
+	line-height: 50px;
+	font-weight: 300;
+	font-family: sans-serif;
+}
+/**the end part dashboad**/

@@ -1,0 +1,640 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1140px;
+	margin: auto;
+	overflow: hidden;
+	font-family: sans-serif;
+}
+header {
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+}
+.rosca_activity-header-includer {
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	position: fixed;
+	background-color: white;
+	z-index: 999;
+	top: 0;
+}
+#rosca-header-inner {
+	height: 35px;
+	line-height: 35px;
+	margin: 15px 0 15px 0;
+}
+#logo {
+	float: left;
+}
+#rosca-header-inner nav {
+	float: right;
+}
+#rosca-header-inner nav ul{
+	margin: 0;
+	list-style-type: none
+}
+#rosca-header-inner nav ul li {
+	display: inline-block;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+#rosca-header-inner nav ul li a {
+	text-decoration: none;
+	color: #333;
+}
+#rosca-header-inner nav ul li a:hover {
+	color: #0000cc;
+}
+	.rosca_img-center {
+		margin-bottom: -5px;
+	}
+#rosca-banner {
+	height: 326px;
+	background-image: url(../Demo/photo/bg-banner.jpg);
+}
+	.rosca_activity-inner {
+		width: 100%;
+		height: 256px;
+		margin-top: 42px; 
+	}
+		.rosca_activity-content-develop {
+			width: 1165px;
+			height: 108px;
+		}
+			.rosca-banner-develop {
+				width: 380px;
+				height: 108px;
+				float: left;
+				
+			}
+			.rosca-banner-develop img {
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				float: left;
+				margin-top: -10px;
+			}
+			.rosca-banner-develop h3 {
+				margin-top: 20px;
+				font-family: sans-serif;
+				font-size: 30px;
+				font-weight: 300;
+				color: white;
+				float: left;
+				margin-left: 20px;
+				position: relative;
+			}
+			.rosca-banner-develop h3 strong {
+				width: 234px;
+				font-size: 16px;
+				position: absolute;
+				font-weight: 300;
+			}
+			.rosca-banner-total-top {
+				width: 765px;
+				height: 108px;
+				display: inline-block;
+			}
+				.rosca-banner-inner-box {
+					width: 239px;
+					height: 88px;
+					float: left;
+					margin: 0 8px;
+					background-color: white;
+					border-radius: 5px;
+				}
+				.rosca-banner-box-general {
+					margin: 10px;
+					text-transform: capitalize;
+					font-family: sans-serif;
+					
+				}
+				.rosca-box-texting {
+					width: 120px;
+					height: 65px;
+					float: left;
+					margin: 0;
+				}
+				.rosca-box-texting h3 {
+					font-size: 30px;
+					margin: 15px 0 0 0;
+					font-weight: 300;
+				}
+				.rosca-box-styling {
+					width: 65px;
+					height: 65px;
+					line-height: 65px;
+					float: right;
+					border-radius: 50%;
+					border: 3px solid #b3cccc;
+					margin: 0;
+				}
+				.rosca-box-styling img {
+					margin: 20px 0 0 20px;
+				}
+				.rosca-box-styling span {
+					margin-left: 10px;
+					font-size: 26px;
+					font-family: sans-serif;
+				}
+					.rosca-banner-box-1 {
+						border-bottom: 3px solid #ff33ff;
+					}
+					.rosca-banner-box-1 div div span {
+						color: #ff33ff;
+					}
+
+					.rosca-banner-box-2 {
+						border-bottom: 3px solid #00cc00;
+					}
+					.rosca-banner-box-2 div div span {
+						color: #00cc00;
+
+					}
+					.rosca-banner-box-3 {
+						border-bottom: 3px solid #1a75ff;
+					}
+					.rosca-banner-box-3 div div span {
+						color: #1a75ff;
+					}
+		.rosca_activity-content-total {
+			width: 1165px;
+			height: 92px;
+			float: right;
+			margin: 20px -15px 0 0;
+
+		}
+		.rosca_activity-content-general {
+			display: inline-block;
+		}
+			.rosca_activity-content-inner {
+				width: 270px;
+				height: 92px;
+				margin: 0 10px 0 10px;
+				float: left;
+				color: white;
+				border-radius: 7px;
+				overflow: hidden;
+			}
+			.rosca_activity-content-inner div span {
+				font-size: 16px;
+				font-family: sans-serif;
+				text-transform: uppercase;
+			}
+			.rosca_activity-content-inner h3 {
+				font-weight: 500;
+				font-size: 30px;
+				font-family: sans-serif;
+				margin: 6px 0 0 15px;
+
+			}
+				.rosca-box-transparent {
+					width: 144px;
+					height: 45px;
+					line-height: 45px;
+					background-color: rgba(0, 126, 0, 0.135);
+					text-align: center;
+					position: relative;
+					display: block;
+				}
+				.rosca-box-transparent::after {
+					top: 0;
+					display: block;
+					position: absolute;
+					left: 100%;
+					content: '';
+					border-right: 20px solid transparent;
+					border-top: 45px solid rgba(0, 126, 0, 0.135);
+				}
+				.content-inner-1 {
+					background-color: #00e600;
+					background-image: url(../Demo/photo/total-get.png);
+				    background-repeat: no-repeat;
+				    background-position: 90% 50%;
+				}
+				.content-inner-2 {
+					background-color: #1a75ff;
+					background-image: url(../Demo/photo/total-give.png);
+				    background-repeat: no-repeat;
+				    background-position: 90% 50%;
+				}
+				.content-inner-3 {
+					background-color: #ff00ff;
+					background-image: url(../Demo/photo/net-gain.png);
+				    background-repeat: no-repeat;
+				    background-position: 90% 50%;
+				}
+				.content-inner-4 {
+					background-color: #ffcc00;
+					background-image: url(../Demo/photo/total-roscas.png);
+				    background-repeat: no-repeat;
+				    background-position: 90% 50%;
+				}
+/**the end part banner for website**/
+#rosca-main {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+	.rosca_activity-main-general {
+		width: 100%;
+		margin-top: 40px;
+
+	}
+	.rosca_activity-main-content {
+		width: 725px;
+		height: 1259px;
+		float: left;
+	}
+	.rosca_activity-header {
+		width: 100%;
+		height: 42px;
+		border-bottom: 1px solid #333;
+		margin-bottom: 40px;
+	}
+		.rosca-content-box-general {
+			height: 42px;
+			line-height: 42px;
+			display: inline-block;
+		}
+		.box-header-top {
+			padding-left: 15px;
+		}
+		.box-content-target {
+			width: 100%;
+			height: 70px;
+			line-height: 70px;
+			background-color:  #e0ebeb;
+			border-radius: 7px;
+			margin-bottom: 11px;
+		}
+		.rosca-box-clearfix {
+			width: 100%;
+			height: 70px;
+			line-height: 70px;
+			padding-left: 15px;
+		}
+			.box-header {
+				float: left;
+			}
+			.box-inline {
+				float: left;
+
+			}
+			.clearfix-first {
+				background-color: #bb99ff;
+			}
+			.clearfix-third {
+				background-color: #9fdfbf;
+			}
+			.clearfix-fourth {
+				background-color: #ffaa80;
+			}
+			.clearfix-fifth {
+				background-color: #80aaff;
+			}
+			.clearfix-sixth {
+				background-color: #ffb3ff;
+			}
+				.box-serial {
+					width: 55px;
+				}
+				.box-name {
+					width: 150px;
+				}
+				.box-number {
+					width: 60px;
+				}
+				.box-date {
+					width: 130px;
+				}
+				.box-money {
+					width: 135px;
+					color: #3385ff;
+				}
+				.box-link {
+					width: 150px;
+				}
+				.box-stylist {
+					width: 108px;
+					height: 38px;
+					line-height: 38px;
+					text-align: center;
+					margin-top: 15px;
+					padding: 0 15px 0 15px;
+					border-radius: 5px;
+					border: 1px solid #333;
+				}
+				.box-stylist a {
+					text-decoration: none;
+					color: #333;	
+				}
+		.rosca_activity-content-bottom {
+			width: 100%;
+			height: 46px;
+			line-height: 46px;
+			margin-top: 20px;
+		}
+			.content-bottom-left {
+				width: 155px;
+				height: 46px;
+				line-height: 46px;
+				text-align: center;
+				float: left;
+				background-color: #5900b3;
+				border-radius: 23px;
+			}
+			.content-bottom-left:hover {
+				background-color: yellow;
+			}
+				.content-bottom-left a {
+					color: white;
+					text-decoration: none;
+				}
+			.link-show-more-right {
+				float: right;
+				margin: 8px -5px 0 0;
+			}
+			.link-show-more-right ul {
+				margin: 0;
+				list-style-type: none;
+			}
+			.link-show-more-right ul li {
+				float: left;
+			}
+			.link-show-more-right ul li div {
+				width: 36px;
+				height: 36px;
+				line-height: 36px;
+				margin: 0 5px 0 5px;
+				text-align: center;
+				background-color:  #e0ebeb;
+				border-radius: 5px;
+			}
+			.link-show-more-right ul li:nth-child(2) div {
+				width: 36px;
+				height: 36px;
+				line-height: 36px;
+				background-color: #5900b3;
+				text-align: center;
+				border-radius: 5px;
+			}
+			.link-show-more-right ul li:nth-child(2) div a {
+				text-decoration: none;
+				color: white;
+			}
+			.link-show-more-right ul li a {
+				text-decoration: none;
+				color: #333;
+			}
+
+	.rosca_activity-main-sidebar {
+		width: 370px;
+		height: 1259px;
+		float: right;
+		border: 1px solid #e0ebeb;
+		border-radius: 7px;
+	}
+	.rosca-main-sidebar {
+
+	}
+		.rosca-activity-sidebar-header {
+			width: 370px;
+			height: 51px;
+			overflow: hidden;
+			border-bottom: 1px solid #bb99ff;
+		}
+			.sidebar-header-box-left {
+				width: 135px;
+				height: 51px;
+				line-height: 51px;
+				text-align: right;
+				font-size: 16px;
+				color:  #bb99ff;
+				text-transform: uppercase;
+				background-image: url(../Demo/photo/calendar-gray.png);
+				background-position: 10% 50%;
+				background-repeat: no-repeat;
+				float: left;
+			}
+			.sidebar-header-box-right {
+				width: 76px;
+				height: 51px;
+				line-height: 51px;
+				text-align: center;
+				background-color: #bb99ff;
+				float: right;
+				position: relative;
+				border-top-right-radius: 7px;
+			}
+			.sidebar-header-box-right:after {
+				top: 0;
+				position: absolute;
+				content: '';
+				right: 100%;
+				border-left: 20px solid transparent;
+				border-bottom: 51px solid #bb99ff;
+			}
+			.sidebar-header-box-right span {
+				font-size: 24px;
+				color: white;
+				font-weight: 300;
+			}
+		.rosca-main-sidebar table {
+			width: 100%;
+			height: 1078px;
+			border-bottom: 1px solid #e0ebeb;
+		}
+		.rosca-main-sidebar table thead tr {
+			width: 100%;
+			height: 42px;
+			text-align: left;
+
+		}
+		.rosca-main-sidebar table thead tr th {
+			padding-left: 15px;
+			font-weight: 300;
+		}
+		.rosca-main-sidebar table tbody {
+			width: 100%;
+			height: 1036px;
+		}
+		.rosca-main-sidebar table tbody tr {
+			width: 100%;
+			height: 74px;
+			text-align: left;
+			background-color:#e0ebeb;
+		}
+		.rosca-main-sidebar table tbody tr:nth-child(even) {
+			background-color: white;
+		}
+		.rosca-main-sidebar table tbody tr td {
+			padding-left: 15px;
+		}
+		.rosca-main-sidebar table tbody tr td span {
+			font-weight: 700;
+		}
+		.rosca-main-sidebar table tbody tr td i {
+			margin: 0 20px;
+		}
+			.rosca-img-people {
+				width: 159px;
+				height: 74px;
+				
+			}
+			.rosca-img-people img {
+				width: 54px;
+				height: 54px;
+				border-radius: 50%;
+				margin-top: 10px;
+				position: relative;
+			}
+			.rosca-img-people strong {			
+				margin-top: 30px;
+				padding-left: 10px; 
+				position: absolute;
+				font-weight: 300;
+			}
+		.rosca-sidebar-bottom {
+			width: 100%;
+			height: 125px;
+			
+		}
+			.content-bottom-first {
+				height: 22px;
+				margin-bottom: 20px;
+				text-align: center;
+			}
+				.content-bottom-first a {
+					text-decoration: none;
+					color: ;
+				}
+			.content-bottom-link {
+				width: 100%;
+				height: 42px;
+				line-height: 42px;
+				margin-left: -18px;
+				text-align: center;
+			}
+			.content-bottom-link ul {
+				margin: 0;
+				list-style-type: none;
+			}
+			.content-bottom-link ul li {
+				display: inline-block;
+			}
+			.content-bottom-link ul li div {
+				width: 36px;
+				height: 36px;
+				line-height: 36px;
+				text-align: center;
+				background-color:  #e0ebeb;
+				border-radius: 5px;
+			}
+			.content-bottom-link ul li:nth-child(2) div {
+				width: 36px;
+				height: 36px;
+				line-height: 36px;
+				background-color: #5900b3;
+				text-align: center;
+				border-radius: 5px;
+			}
+			.content-bottom-link ul li:nth-child(2) div a {
+				text-decoration: none;
+				color: white;
+			}
+			.content-bottom-link ul li a {
+				text-decoration: none;
+				color: #333;
+			}
+.rosca_activity-darkbottom {
+	width: 100%;
+	height: 70px;
+}
+.rosca_activity-bottom {
+	width: 100%;
+	height: 70px;
+	margin: auto;
+	overflow: initial;
+}
+.row {
+	width: 100%;
+	display: inline-flex;
+	text-align: center;
+}
+.col-md-4 {
+	width: 33%;
+	height: 70px;
+	text-align: center;
+}
+	.box-link-share:hover,.box-link-chat:hover {
+		background-color: yellow;
+	}
+	.box-link-share {
+		width: 120px;
+		height: 40px;
+		line-height: 40px;
+		position: fixed;
+		bottom: 30px;
+		left: 15px;
+		margin: 65px 0 0 25px;
+		border-radius: 20px;
+		z-index: 999;
+		background-color: #5900b3;
+	}
+	.box-link-center {
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		margin: auto;
+
+	}
+	.box-link-center-private {
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		text-align: center;
+		margin: auto;
+		background-color: darkgreen;
+		border-radius: 50%;
+		position: fixed;
+		bottom: 70px;
+
+	}
+	.box-link-chat {
+		width: 120px;
+		height: 40px;
+		line-height: 40px;
+		position: fixed;
+		right: 15px;
+		bottom: 30px;
+		z-index: 999;
+		margin: 65px 25px 0 0;
+		background-color: #5900b3;
+		border-radius: 20px;
+	}
+	.row div div a {
+		text-decoration: none;
+		color: white;
+		font-weight: 700;
+		font-size: 16px;
+		font-family: sans-serif;
+	}
+footer {
+	width: 100%;
+	height: 51px;
+	line-height: 51px;
+	background-color: black;
+	text-align: center;
+	color: #b9bfc3;
+}
+p {
+	font-size: 14px;
+	line-height: 50px;
+	font-weight: 300;
+	font-family: sans-serif;
+}
